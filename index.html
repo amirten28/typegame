@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="type.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>typing game</title>
+</head>
+<body>
+<h3 id='startMassege'></h3>
+    
+
+<button id="settings-btn" class="settings-btn" ><i class="fa fa-cog"></i></button>   <!-- 1 -->
+
+
+<div id='settings' class="settings">                                                    <!-- 2 -->
+<form id='settings-form'>
+    <label for="difficulty" id='difficulty-pos'>Difficulty</label>
+    <select  id="difficulty">
+     <option value="easy">Easy</option>
+     <option value="medium">Medium</option>
+     <option value="hard">Hard</option>   
+    </select>
+</form>
+</div>
+
+
+
+
+<div class="container">                                                             <!-- 3 -->
+    <h2>Speed Typer</h2>
+    <small>type the following:</small>
+    <h1 id="word"></h1>
+    <input type="text" id="text" autocomplete="off" placeholder="Type The Word Here" >
+
+
+    <p class="time-container">
+       Time Left:<span id='time'>10s</span>  
+    </p>
+
+    <p class="score-container">
+        score: <span id="score">0</span>
+    </p>
+
+    <div id="end-game-container" class="end-game-container">
+
+    </div>
+</div>
+
+
+
+<script src="type.js"></script> 
+</body>
+</html>
