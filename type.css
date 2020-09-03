@@ -134,3 +134,15 @@ h3{
  top: 130px;
  text-align: center;
 }
+
+@media only screen and (max-width: 500px) {
+   .time-container{
+       margin-left: 50px;
+   }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .score-container{
+        margin-right: 50px;
+    }
+   }

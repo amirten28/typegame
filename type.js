@@ -114,9 +114,9 @@ function startGame(){
     }
 }
 
-settingsBTN.addEventListener('click',() => // לחיצה על כפתור זה "תחביא" את סטינגס שלמעלה 
+settingsBTN.addEventListener('click',() =>{ // לחיצה על כפתור זה "תחביא" את סטינגס שלמעלה 
 
-settings.classList.toggle('hide')); // בסי אס אס הגדרנו לסטינגס קלאס הייד בלחיצה על הכפתור הסטינגס יקבלו את ההגדרות סי אס אס  של קלאס הייד 
+settings.classList.toggle('hide')}); // בסי אס אס הגדרנו לסטינגס קלאס הייד בלחיצה על הכפתור הסטינגס יקבלו את ההגדרות סי אס אס  של קלאס הייד 
 
 
 // settings select 
