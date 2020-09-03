@@ -137,12 +137,12 @@ h3{
 
 @media only screen and (max-width: 500px) {
    .time-container{
-       margin-left: 55px;
+       margin-left: 65px;
    }
   }
 
   @media only screen and (max-width: 500px) {
     .score-container{
-        margin-right: 55px;
+        margin-right: 65px;
     }
    }
